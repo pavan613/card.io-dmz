@@ -27,7 +27,7 @@ static uint8_t const NumberLengthForNumberPatternType[3] = {0, 16, 15};
 static uint8_t const NumberPatternLengthForPatternType[3] = {0, 19, 17};
 static uint8_t const NumberPatternUnknownPattern[19]  = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 static uint8_t const NumberPatternVisalikePattern[19] = {1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1};
-static uint8_t const NumberPatternAmexlikePattern[19] = {1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0};
+static uint8_t const NumberPatternAmexlikePattern[19] = {1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0};
 static uint8_t const * NumberPatternForPatternType[3] = {NumberPatternUnknownPattern, NumberPatternVisalikePattern, NumberPatternAmexlikePattern};
 
 
