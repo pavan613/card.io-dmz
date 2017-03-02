@@ -62,6 +62,7 @@ dmz_card_info dmz_card_info_for_prefix_and_length(uint8_t *number_array, uint8_t
     {CardTypeDiscover,    14, 3, 300, 305},        // Diners Club (Discover)
     {CardTypeDiscover,    14, 3, 309, 309},        // Diners Club (Discover)
     {CardTypeAmex,        15, 2, 34, 34},          // AmEx
+    {CardTypeAmex,        15, 2, 56, 56},          // Access card
     {CardTypeJCB,         16, 4, 3528, 3589},      // JCB
     {CardTypeDiscover,    14, 2, 36, 36},          // Diners Club (Discover)
     {CardTypeDiscover,    14, 2, 38, 39},          // Diners Club (Discover)
